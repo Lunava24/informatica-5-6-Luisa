@@ -12,4 +12,4 @@ while Keep_trying:
     if goblin_position == guessed_position:
         print("🟢Well done!! you find the goblin🟢")
         Keep_trying = False
-    else print("🔴NO, The goblin still hide somewhere else🔴")
+    else: print("🔴NO, The goblin still hide somewhere else🔴")
