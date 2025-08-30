@@ -1,14 +1,15 @@
-condition = True
+while True:
 
-while condition:
-    greeting = input("Type a greeting")
+    greeting = input("Greeting: ").strip().lower()
 
 if greeting.startswith("hello"):
     print("$0")
 elif greeting.startswith("h"): 
     print("$20")
-elif greeting.startswith("other"):
+else:
     print("$100")
 
-print("have a good day")
+main()
+
+
 

@@ -1,14 +1,11 @@
 import time
 
-from attr import _Nothing
-
-def main():
+while True:
     word = input("What are you doing?")
     time.sleep(0.5)
     print("I'm ")
 
-if ord(_Nothing):
-    print("Read somthing or do exercise")
+
 
 
 
