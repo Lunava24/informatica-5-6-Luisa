@@ -1,9 +1,9 @@
 def main(): #
-    message = input("Type a message: ").lower() #This is to start the variable
-    encode_message(message) #
+    message = input("Type a message: ").lower() #This is to start the function
+    encode_message(message) # calling the function
 
 
-def encode_message(text): #Starting a new variable
+def encode_message(text): #Starting a new function
     alphabet = "abcdefghijklmnopqrstuvwxyz" #This is the alphabet variable 
     cipher = "zyxwvutsrqponmlkjihgfedcba" #Transposing all the letters in the alphabet such that the resulting alphabet is backwards
     new_message = "" #

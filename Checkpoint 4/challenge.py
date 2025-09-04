@@ -6,10 +6,11 @@ def main():
 
     counter = 1
     while counter <= 10:
-        print(f"{num} * {counter} = {num * counter}")
+        counter2 = 1
+        while counter2 <= 10:
+            print(f"{counter} * {counter2} = {counter * counter2}")
+            counter2 += 1
         counter += 1
+        print()
 
 main()
-
-
-   
