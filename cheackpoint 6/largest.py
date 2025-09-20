@@ -1,11 +1,16 @@
-list_length = int(input("List length: "))
-numbers_list = []
+def main():
+    list_length = int(input("List length: "))
+    numbers = []
+    print(f"Enter {list_length} numbers: ")
 
-for numbers in range(list_length):
-    list_element = int(input("Enter element: "))
-    numbers_list.append(list_element)
+    for list in range(list_length):
+        number = int(input())
+        numbers.append(number)
 
-print(numbers_list)
+    with open("largest.txt", "w") as file:
+        for num in numbers:  
+            file.write(f"{number}\n")
+    largest_number = max(numbers)
+    print(f"The largest number is: {largest_number} ")
 
-with open("largest.txt", "a") as file:  
-    file.write(f"{input("What's the largest number? ")}")
+main()
