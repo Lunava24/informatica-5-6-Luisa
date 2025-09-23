@@ -25,8 +25,7 @@
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
 #Print rows
 for row in matrix:
-    print(f"{row[0]}, {row[1]}, {row[2]}")
+    print(row)
 
 #for row in matrix:
-#   print(row)
-
+   #print(f"{row[0]}, {row[1]}, {row[2]}")
