@@ -11,9 +11,22 @@ def sum_of_column(matrix, column_number: int):
     column_sum = 0
     for row in matrix:
         column_sum = column_sum + row[column_number]
-    return column_sum    
+    return column_sum   
+
+def change_number(matrix,row,col,num):
+    matrix[row][col] = num
+    return matrix
 
 m = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+row = int(input("Enter a row: "))
+col = int(input("Select a col: "))
+num = int(input("Choose a number: "))
+
+change_number(m,row,col,num)
+print(m)
+sum_of_row(m)
+
+
 # my_sum = sum_of_row(m, 1)
-my_sum = sum_of_column(m, 2)
-print(my_sum)    
+# my_sum = sum_of_column(m, 2)
+# print(my_sum)    
