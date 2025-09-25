@@ -24,7 +24,8 @@ num = int(input("Choose a number: "))
 
 change_number(m,row,col,num)
 print(m)
-sum_of_row(m)
+sum_of_row(m,row)
+sum_of_column(m,col)
 
 
 # my_sum = sum_of_row(m, 1)
