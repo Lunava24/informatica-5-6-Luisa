@@ -27,5 +27,12 @@ matrix = [[1,2,3],[4,5,6],[7,8,9]]
 for row in matrix:
     print(row)
 
-#for row in matrix:
-   #print(f"{row[0]}, {row[1]}, {row[2]}")
+print("\n")
+
+i = 0
+while i < 3:
+    matrix_plus = []
+    for row in matrix:
+        matrix_plus.append(row[i])
+    i += 1
+    print(matrix_plus)    
