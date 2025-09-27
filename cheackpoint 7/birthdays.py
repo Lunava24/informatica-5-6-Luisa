@@ -3,8 +3,17 @@ birthdays = {
     "Luna": "January 22",
     "Rodrigo": "September 10"
 }
-for name in birthdays:
-    name.find(input("Select a name: "))
-    print(f"{name}: {birthdays[name]}")
-    # if name in birthdays:
+
+name = input("Enter a name: ")
+
+if name in birthdays:
+    print(f"Name: {name} Birthday: {birthdays[name]}")
+else: 
+    print("We dont have that name")
+    birthdate = input("When was this person born: ")
+    birthdays[name] = birthdate
+print(birthdays)
+
+
+
 

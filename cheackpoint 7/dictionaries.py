@@ -6,8 +6,8 @@ capitals = {
 } #we are define a key with a value
 
 capitals["Italy"] = "Rome" #add a new key and value
-del capitals["Brazil"]#deletes keys and values
-capitals.pop("Canada")#deletes keys and values but with 
+del capitals["Brazil"]# deletes keys and values
+capitals.pop("Canada")# deletes keys and values but with 
 capitals.clear()#clean all lists
 
 #print(capitals)#with brackets in the parenthesis we will choose a key, then the value
