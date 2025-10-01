@@ -6,4 +6,5 @@ print(dictionary)
 
 print(len(message))
 
-find = max(dictionary, )
+find = max(dictionary, key=dictionary.get)
+print(f"The largest word is: {find}, It appears: {dictionary[find]} times")
