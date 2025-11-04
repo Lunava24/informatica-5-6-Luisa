@@ -14,10 +14,9 @@
 # import statistics
 # print(statistics.mean([100,90]))
 
-import sys
-try:
-    print("Hello, my name is:", sys.argv[1])
-except IndexError:
-    # print("Too few arguments")
-    sys.exit()
-
+# import sys
+# try:
+#     print("Hello, my name is:", sys.argv[1])
+# except IndexError:
+#     # print("Too few arguments")
+#     sys.exit()
